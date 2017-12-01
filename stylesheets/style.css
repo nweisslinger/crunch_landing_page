@@ -1,0 +1,204 @@
+.navbar{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 80px;
+    background-color: white;
+}
+
+.navbar .menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    
+
+}
+
+.navbar a {
+
+    color: #49AD00;
+    text-align: center;
+    text-decoration: none;
+    font-family: Oswald;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 0.1px;
+    color: #49ad00;
+    margin-right:32px;
+}
+
+.navbar .logo{
+    height:56px;
+    width:115px;
+    margin-left: 32px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-columns: auto 960px auto;
+}
+
+.page{
+    display:grid;
+    grid-column: 1/span 3;
+    grid-template-columns: auto 960px auto;
+    grid-template-rows: auto;
+    justify-content: center;
+
+}
+.page1{
+    grid-row:1 / span 1;
+    background-color: white;
+
+}
+
+.page2{
+    grid-row:2 / span 1;
+    background-color: #49AD00;
+
+}
+
+.page3{
+    grid-row:3 / span 1;
+    background-color: white;
+}
+
+.page4{
+    grid-row:4 / span 1;
+    background-color: #49AD00;
+}
+
+
+
+.sub{
+    display: grid;
+    grid-column: 2 / span 1;
+    height:100%;
+    justify-items: center;
+}
+
+.split{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 16px;
+}
+
+.page1 .photo{
+    width:500px;
+    height:auto;
+    margin-top:141px;
+}
+
+
+.page2 video{
+    width:250px;
+    height:auto;
+}
+
+
+.page3 .photo{
+    width:430px;
+    height:auto;
+    justify-self: end;
+}
+
+.page1 h1{
+    font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -1.8px;
+	text-align: center;
+    color: #49ad00;
+    margin-top:32px;
+}
+
+
+.page1 h2{
+    font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: -0.9px;
+	text-align: center;
+    color: #9b9b9b;
+    margin-top:16px;
+}
+
+
+
+.page2 h1{
+    font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -1.8px;
+	text-align: center;
+    color: white;
+    margin-top:120px;
+}
+
+
+
+.page2 p{
+    font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: -0.9px;
+	text-align: left;
+    color: #ffffff;
+    align-self: top;
+}
+
+.page3 h1{
+    font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -1.8px;
+	text-align: center;
+    color: #49ad00;
+    margin-top:120px;
+}
+
+.page3 .testimonials{
+    align-self:center;
+}
+.page3 .testimonials p{
+    font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: -0.9px;
+	text-align: right;
+	color: #49ad00;
+}
+
+.page3 .testimonials p small{
+    font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: -0.7px;
+	text-align: right;
+	color: #49ad00;
+}
+
+.page4 h1{
+    font-family: Montserrat;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -1.8px;
+	text-align: center;
+    color: white;
+    margin-top:120px;
+}
+
+
+.download{
+    width:363px;
+    height:auto;
+    align-self:end;
+    margin-bottom:32px;
+}
