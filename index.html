@@ -8,7 +8,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600|Oswald:500" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/reset.css">
-    <link rel="stylesheet" href="stylesheets/style.css">
+    <!-- <link rel="stylesheet" href="stylesheets/stylem.css"> -->
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="stylesheets/style.css" />
+
 
     <link rel="icon" type="image/png" href="images/potato.png" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -35,35 +37,42 @@
 
     <div class="container">
 
-        <div class="page page1">
+        <div class="page page1" id="anchor1">
             <div class="sub sub1">
                 <img src="images/hero.png" class="photo" alt="hero image">
                 <div>
                     <h1>Introducing Crunch.</h1>
                     <h2>By far the best fitness app for couch potatoes.</h2>
                 </div>
-                <img src="images/download.png" alt="download button" class="download">
+                <a href="outsoon.html" class="downloadanchor">
+                    <img src="images/download.png" alt="download button" class="download">
+                </a>
             </div>
         </div>
-
-        <div class="page page2">
+        <div class="page page2" id="anchor2">
             <div class="sub">
                 <h1>What is Crunch?</h1>
                 <div class="split">
-                    <video src="images/Crunch.mp4"></video>
+                    <video controls>
+                        <source src="images/Crunch.mp4" type="video/mp4" />
+                    </video>
                     <p>
                         Crunch is the first fitness application truly tailored to the utterly lazy couch potatoes.
                         <br>
-                        <br> Crunch is simple, personal, fun, and serious. If you fall behind Crunch will seriously get mad at
+                        <br>
+                        <small>It's simple, personal, fun, and serious. If you fall behind Crunch will seriously get mad at
                         you.
+                        </small>
                     </p>
                 </div>
-                <img src="images/downloadwhite.png" alt="download button" class="download">
+                <a href="outsoon.html" class="downloadanchor">
+                    <img src="images/downloadwhite.png" alt="download button" class="download">
+                </a>
             </div>
 
         </div>
 
-        <div class="page page3">
+        <div class="page page3" id="anchor3">
             <div class="sub">
                 <h1>Testimonials</h1>
                 <div class="split">
@@ -87,32 +96,44 @@
 
                     <img src="images/couchpotato.png" class="photo" alt="are you a couch potato?">
                 </div>
-                <img src="images/download.png" alt="download button" class="download">
+                <a href="outsoon.html" class="downloadanchor">
+                    <img src="images/download.png" alt="download button" class="download">
+                </a>
             </div>
 
         </div>
 
-        <div class="page page4">
+        <div class="page page4" id="anchor4">
             <div class="sub">
                 <h1>Contact</h1>
                 <div class="split">
-                    <img src="images/bikini.png" alt="bikini potato">
+                    <img src="images/bikini.png" alt="bikini potato" class="photo">
                     <div class="contactinfo">
-                        Product Owner
+                        <span>Product Owner</span>
                         <br> Nicolas Weisslinger
                         <br> weiss.weisslinger@gmail.com
                         <br> +33678114890
                         <br>
-                        <br> Links
-                        <br> Medium post
-                        <br> Linkedin
-                        <br> Behance
-                        <br> Portfolio
+                        <br>
+                        <span>Links</span>
+                        <br>
+                        <a href="http://medium.com/@weisslinger">Medium</a>
+                        <br>
+                        <a href="http://weisslinger.myportfolio.com">Portfolio</a>
+                        <br>
+                        <a href="https://www.behance.net/weissweiss9747">Behance</a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/nicolas-weisslinger-a01b18b7/">Linkedin</a>
                         <br>
                     </div>
 
                 </div>
-                <img src="images/downloadwhite.png" alt="download button" class="download">
+                <div>
+                    <a href="outsoon.html" class="downloadanchor">
+                        <img src="images/downloadwhite.png" alt="download button" class="download">
+                    </a>
+                    <h4>Copyright Nicolas Weisslinger 2017</h4>
+                </div>
 
             </div>
 
